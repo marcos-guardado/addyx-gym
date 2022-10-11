@@ -1,0 +1,27 @@
+:root {
+  --size: 15px;
+  --font-style: bold;
+}
+
+.card-container {
+  width: 200px;
+  height: 100px;
+}
+
+.total-members-p {
+  font-weight: var(--font-style);
+  font-size: var(--size);
+  color: #5800ff;
+}
+
+.current-income-p {
+  font-weight: var(--font-style);
+  font-size: var(--size);
+  color: #7dce13;
+}
+
+.joined-this-month-p {
+  font-weight: var(--font-style);
+  font-size: var(--size);
+  color: #3ccf4e;
+}

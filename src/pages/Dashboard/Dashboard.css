@@ -1,0 +1,25 @@
+.image-bg {
+  background: url(https://i.imgur.com/zFUAKdv.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 520px) {
+  .image-bg {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .image-bg {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(1100px);
+  }
+}
